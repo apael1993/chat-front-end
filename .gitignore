@@ -1,0 +1,18 @@
+# IDE specific
+.idea
+*.iml
+
+# NPM generated
+node_modules
+typings
+*.log
+
+# Transpilation results
+app/**/*.js
+app/**/*.js.map
+app/**/*.d.ts
+
+# for  index.ts  file
+index.d.ts
+index.js
+index.js.map
