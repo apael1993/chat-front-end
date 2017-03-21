@@ -2,6 +2,7 @@
  * Created by Anushavan on 3/20/17.
  */
 import {Observable} from "rxjs/Rx";
+import {User} from "../model/user";
 
 /**
  * A class-interface to define some commons of a service providing access to the data.
@@ -11,6 +12,6 @@ import {Observable} from "rxjs/Rx";
  */
 export abstract class DataService {
 
-    
+    public abstract signIn(user: User): Observable<User>;
     
 }

@@ -1,0 +1,8 @@
+<h3>Registration</h3>
+
+Username: <input type="text" value="username"/>
+Password: <input type="password" value="password"/>
+
+<div *ngIf="validationMessage">{{validationMessage}}</div>
+
+<button (click)="signIn()">Sign In</button>
