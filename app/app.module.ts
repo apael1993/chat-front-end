@@ -10,6 +10,7 @@ import {routing, appRoutingProviders} from "./app.routes";
 import {DataServiceImpl} from "./shared/impl/data.service.impl";
 import {SerializationService} from "./shared/impl/serialization.service";
 import {RegistrationModule} from "./component/registration/registration.module";
+import {ChatRoomModule} from "./component/chatRoom/chatRoom.module";
 
 @NgModule({
     imports: [
@@ -17,6 +18,7 @@ import {RegistrationModule} from "./component/registration/registration.module";
         FormsModule,
         HttpModule,
         RegistrationModule,
+        ChatRoomModule,
         routing,
     ],
     declarations: [
